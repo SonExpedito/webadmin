@@ -44,14 +44,16 @@ export default function Dashboard() {
                         <span className="text-botao">OUTROS</span>
                         <img src="/assets/sacola.png" alt="Outros" />
                     </div>
-                    <Link
+
+                      <Link
                         href="/politicas"
                         className="botao"
                         style={{ "--cor": "#FF8C00" } as React.CSSProperties}
                     >
                         <span className="text-botao">POLÍTICAS</span>
-                        <img src="/assets/privacidade.png" alt="Políticas" />
+                        <img src="/assets/privacidade.png" className="object-contain h-[90%]" alt="Políticas" />
                     </Link>
+
                 </div>
             </main>
         </>

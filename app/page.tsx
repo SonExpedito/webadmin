@@ -12,7 +12,7 @@ export default function Home() {
   };
   
   return (
-    <>
+    <main className="bodyLogin">
       <img src="/assets/fundo1.png" className="bg-img img1" alt="" />
       <img src="/assets/fundo2.png" className="bg-img img2" alt="" />
       <img src="/assets/fundo3.png" className="bg-img img3" alt="" />
@@ -80,6 +80,6 @@ export default function Home() {
           </form>
         </div>
       </div>
-    </>
+    </main>
   );
 }
