@@ -23,7 +23,7 @@ interface Produto {
 export default function NovoProduto() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const produtoId = searchParams.get("id");
+  const produtoId = searchParams?.get("id") ?? null;
 
   const [form, setForm] = useState<Produto>({
     nome: "",
